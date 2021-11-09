@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const checkAuthentication = require('../middleware/auth,js')
+const checkAuthentication = require('../middleware/auth.js')
 
 const {createContact,siginInContact,getContactById,deleteContactById,getAllContacts,updateContact} = require('../controllers/ContactController')
 
